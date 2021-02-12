@@ -1,0 +1,21 @@
+pip install virtualenv # install for 1st time 
+
+# create your own Virtual Room 
+
+virtualenv myprojectenv
+
+# myprojectenv is the name of your virtual environment 
+
+# if you are in linux you have to activate the virtualenv
+source myprojectenv/bin/activate
+
+# for window 
+myprojectenv\Scripts\activate.ps1  # in cmd 
+.\myprojectenv\Scripts\activate.ps1   # in powershell 
+
+# how to exit or move out from the virtualenv?
+deactivate 
+
+# always start from select environment then creat a fresh terminal 
+
+
